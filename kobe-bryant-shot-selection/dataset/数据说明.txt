@@ -1,0 +1,47 @@
+实验题目：用20年有关科比的投篮和失​​误的数据，预测哪些投篮能达到网底？为了避免泄漏，方法只应训练所要预测的投篮前发生的事件！
+学号：201507020102
+姓名：李先祥
+data.csv：原始数据。这些数据包含了科比在他20年职业生涯中所尝试的每个投篮命中的位置和情况。任务是预测篮子是否进入（shot_made_flag）。
+      字段：
+		action_type 进攻方式（更具体）
+		combined_shot_type 进攻方式
+			|--Jump Shot：Jump Shot（跳投）、Layup（带球上篮）、Dunk（扣篮）、Tip Shot（补篮） 、Hook Shot（勾手补篮）、Bank Shot（擦板）
+		game_event_id 
+		game_id 比赛ID
+		lat 投篮点latitude纬度
+		loc_x 投篮点
+		loc_y 投篮点
+		lon 投篮点Longitude 经度
+		minutes_remaining 单节剩余时间（分钟）
+		period 表示第几节
+		playoffs 是否是季后赛
+		season 赛季
+		seconds_remaining 剩余时间（秒）
+		shot_distance 投篮距离
+		shot_made_flag 是否进球（待预测属性）
+		shot_type 两分球或三分球
+		shot_zone_area 投篮区域
+		shot_zone_basic 投篮区域（更具体）
+		shot_zone_range 投篮范围
+		team_id 球队ID
+		team_name 球队名称
+		game_date 比赛日期
+		matchup 比赛双方
+		opponent 对手
+		shot_id 投篮ID
+action_type 进攻方式（更具体）、combined_shot_type：进攻方式、game_event_id、game_id 比赛ID、lat 投篮点纬度、loc_x 投篮点、loc_y 投篮点、lon 投篮点经度、minutes_remaining 单节剩余时间（分钟）、、period 表示第几节、playoffs 是否是季后赛、season 赛季、seconds_remaining 剩余时间（秒）
+		shot_distance 投篮距离
+		shot_made_flag 是否进球（待预测属性）
+		shot_type 两分球或三分球
+		shot_zone_area 投篮区域
+		shot_zone_basic 投篮区域（更具体）
+		shot_zone_range 投篮范围
+		team_id 球队ID
+		team_name 球队名称
+		game_date 比赛日期
+		matchup 比赛双方
+		opponent 对手
+		shot_id 投篮ID
+
+		
+		
